@@ -1,1 +1,1 @@
-go to shell and type`npm i` after that go to [ALiCE](alicezetion.vercel.app) login yout facebook account in alicestate, copy your alicestate and paste it to your alicestate.json and go back to shell and type npm start
+go to shell and type`npm i` after that go to [ALiCE](alicezetion.vercel.app) login your facebook account in alicestate, copy your alicestate and paste it to your alicestate.json and go back to shell and type npm start
