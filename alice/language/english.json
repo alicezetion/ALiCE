@@ -1,0 +1,58 @@
+{
+  "start": "checking file list",
+  "alicestate": {
+    "unknown": "please use alicestate",
+    "connect": "connecting to alicestate",
+    "connected": "alicestate connected",
+    "disconnect": "cannot connect to alicestate, please get a new alicestate and paste it again on alicestate.json",
+    "missing": "your alicestate is empty",
+    "security": "running alicestate security"
+  },
+  "admin": {
+    "missing": "bot admin is currently missing please add your facebook url on alice.json"
+  },
+  "file": {
+    "invalid": "invalid file format ⟨ {0} ⟩",
+    "exist": "this command name ⟨ {0} ⟩ is already exists please change your command name to fix this issue"
+  },
+  "installed": {
+   "command": "installed {0} commands",
+   "function": "installed {0} functions"
+  },
+  "command": "the command you type doesn't exist in my system you mean\n {0}",
+  "ban":  {
+    "user": "your account has been banned on alice system",
+    "group": "your group chat has been banned on alice system",
+    "nsfw": "your group chat is not allowed to use nsfw commands",
+    "groupAdmin": "sorry but only group admins can use this command",
+     "admin": "sorry but only bot admins can use this command",
+     "premium": "sorry but only premium users can use this command"
+  },
+  "schedule": {
+    "morning": "the sun is a daily reminder that we too can rise again from the darkness, that we too can shine our own light\n\n🌤️ good morning everyone",
+    "afternoon": "don't push yourself too hard, forget everything for a moment and take some rest\n\n🌥️ good afternoon everyone",
+    "evening": "the setting sun is an indication that no matter how hard your day was it is now over, sit back, relax, and be proud that you’ve survived another day\n\n🌆 good evening everyone",
+    "sleep": "let the night take you, let the stars evaporate into your dreams, let sleep be the only comfort for your to believe\n\n🌌 good night everyone",
+    "midnight": "don't overthink too much, all bad thing's is just temporary, take a rest and forget everything for a while\n\n🌃 sleep well my dear"
+    },
+  "cooldown": "command is in cooldown you can use this command after\n⟨ {0} seconds ⟩",
+  "missing": "inputs cannot be left blank\n\nhow to use?\n{0} ⟨ input ⟩\n\nexample:\n{0} alice",
+  "help": "commands list:\n\n{0}\n\n⟨ page {1} ⟩",
+  "request": "processing your request\n⟨ {0} ⟩",
+  "error": "there's an error while sending your request please try to again later or fix your code immediately",
+  "size": "sorry, your request file cannot be send because it's larger than 25mb, please try to request the shortest one",
+  "search": "search results for\n⟨ {0} ⟩",
+  "reply": "please reply to a valid message to process your request",
+  "url": "please enter a valid {0} url",
+  "number": "please select and reply by a number to process your request",
+  "mention": "please mention one user\n\nHow to use?\n{0} ⟨ @tag ⟩\n\nExample:\n{0} @alice",
+  "welcome": {
+    "description": "hello {0}, please use {1}help to see what available commands that i have",
+    "message": "welcome to the group {0}, you're the {1}th member of {2}\n\nplease enjoy staying here and make a lot of friends"
+  },
+  "level": "♡   ∩_∩\n.. （„• ֊ •„)♡\n┏━∪∪━━┓\n ♡𝗟𝗘𝗩𝗘𝗟 𝗨𝗣♡\n┗━━━━━┛\n\n❖ {0}, your alicization is now on level {1}",
+  "goodbye": {
+    "description": "it this the end {0}?",
+    "message": "goodbye to the group {0}, i hope you enjoy staying here for awhile\n\nthere's now only {1} member of this group {2}"
+  }
+}

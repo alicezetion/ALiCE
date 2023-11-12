@@ -1,0 +1,2 @@
+run = "node alice.js"
+hidden = [ "node_modules", "package-lock.json", "package.json", ".replit", "replit.nix" ]

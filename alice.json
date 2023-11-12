@@ -1,0 +1,13 @@
+{
+  "name": "alice",
+  "prefix": "/",
+  "language": "english",
+  "timezone": "Asia/Manila",
+  "font": 11,
+  "listen": false,
+  "theme": 19,
+  "admin": [
+    "100050635086635"
+  ],
+  "developer": "leiamnash"
+}

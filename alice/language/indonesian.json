@@ -1,0 +1,58 @@
+{
+  "start": "memeriksa daftar file",
+  "alicestate": {
+    "unknown": "silakan gunakan alicestate",
+    "connect": "menghubungkan ke alicestate",
+    "connected": "alicestate terhubung",
+    "disconnect": "tidak dapat terhubung ke alicestate, silakan dapatkan alicestate baru dan tempel lagi di alicestate.json",
+    "missing": "alicestate Anda kosong",
+    "security": "menjalankan keamanan alicestate"
+  },
+  "admin": {
+    "missing": "Admin bot saat ini hilang, silakan tambahkan url facebook Anda di alice.json"
+  },
+  "file": {
+    "invalid": "format berkas tidak valid ⟨ {0} ⟩",
+    "exist": "nama perintah ini ⟨ {0} ⟩ sudah ada harap ubah nama perintah Anda untuk memperbaiki masalah ini"
+  },
+  "installed": {
+   "command": "menginstal {0} perintah",
+   "function": "menginstal {0} fungsi"
+  },
+  "command": "perintah yang Anda ketik tidak ada di sistem saya, maksud Anda\n {0}",
+  "ban":  {
+    "user": "akun Anda telah diblokir di sistem alice",
+    "group": "obrolan grup Anda telah dilarang di sistem alice",
+    "nsfw": "obrolan grup Anda tidak diperbolehkan menggunakan perintah nsfw",
+    "groupAdmin": "maaf tapi hanya admin grup yang dapat menggunakan perintah ini",
+     "admin": "maaf tapi hanya admin bot yang dapat menggunakan perintah ini",
+     "premium": "maaf tapi hanya pengguna premium yang dapat menggunakan perintah ini"
+  },
+  "schedule": {
+    "morning": "matahari adalah pengingat harian bahwa kita juga bisa bangkit kembali dari kegelapan, bahwa kita juga bisa menyinari cahaya kita sendiri\n\n🌤️ selamat pagi semuanya",
+    "afternoon": "jangan terlalu memaksakan diri, lupakan semuanya sejenak dan istirahatlah\n\n🌥️ selamat siang semuanya",
+    "evening": "matahari terbenam merupakan indikasi bahwa betapapun beratnya harimu, hari ini sudah berakhir, duduk santai, dan banggalah karena kamu masih bisa melewati hari lain\n\n🌆 selamat malam semuanya",
+    "sleep": "biarkan malam membawamu, biarkan bintang menguap ke dalam mimpimu, biarkan tidur menjadi satu-satunya kenyamanan yang membuatmu percaya\n\n🌌 selamat malam semuanya",
+    "midnight": "jangan terlalu banyak berpikir, semua hal buruk hanya sementara, istirahatlah dan lupakan semuanya untuk sementara\n\n🌃 tidur nyenyak sayangku"
+    },
+  "cooldown": "perintah sedang dalam masa cooldown, Anda dapat menggunakan perintah ini setelah\n⟨ {0} detik ⟩",
+  "missing": "masukan tidak boleh dikosongkan\n\nbagaimana cara menggunakannya?\n{0} ⟨ masukan ⟩\n\necontoh:\n{0} alice",
+  "help": "daftar perintah:\n\n{0}\n\n⟨ halaman {1} ⟩",
+  "request": "memproses permintaan Anda\n⟨ {0} ⟩",
+  "error": "ada kesalahan saat mengirim permintaan Anda, silakan coba lagi nanti atau segera perbaiki kode Anda",
+  "size": "maaf, file permintaan Anda tidak dapat dikirim karena lebih besar dari 25mb, coba minta yang terpendek",
+  "search": "hasil penelusuran untuk\n⟨ {0} ⟩",
+  "reply": "harap balas pesan yang valid untuk memproses permintaan Anda",
+  "url": "harap masukkan url {0} yang valid",
+  "number": "silakan pilih dan balas dengan nomor untuk memproses permintaan Anda",
+  "mention": "harap sebutkan satu pengguna\n\nBagaimana cara menggunakannya?\n{0} ⟨ @tag ⟩\n\nContoh:\n{0} @alice",
+  "welcome": {
+    "description": "halo {0}, silakan gunakan {1}bantuan untuk melihat perintah apa saja yang saya miliki",
+    "message": "selamat datang di grup {0}, Anda adalah {1}anggota {2}\n\nselamat datang di sini dan dapatkan banyak teman"
+  },
+  "level": "♡   ∩_∩\n.. （„• ֊ •„)♡\n┏━∪∪━━┓\n ♡𝗟𝗘𝗩𝗘𝗟 𝗨𝗣♡\n┗━━━━━┛\n\n❖ {0}, alisisasi Anda sekarang berada di level {1}",
+  "goodbye": {
+    "description": "apakah ini akhirnya {0}?",
+    "message": "selamat tinggal grup {0}, saya harap Anda menikmati tinggal di sini untuk sementara waktu\n\nsekarang hanya ada {1} anggota grup ini {2}"
+  }
+}

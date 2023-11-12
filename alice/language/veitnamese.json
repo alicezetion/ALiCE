@@ -1,0 +1,58 @@
+{
+  "start": "kiểm tra danh sách tập tin",
+  "alicestate": {
+    "unknown": "vui lòng sử dụng alicestate",
+    "connect": "kết nối với alicestate",
+    "connected": "kết nối alicestate",
+    "disconnect": "không thể kết nối với alicestate, vui lòng lấy alicestate mới và dán lại vào alicestate.json",
+    "missing": "alicestate của bạn trống",
+    "security": "chạy bảo mật alicestate"
+  },
+  "admin": {
+    "missing": "quản trị viên bot hiện đang bị thiếu, vui lòng thêm url facebook của bạn vào alice.json"
+  },
+  "file": {
+    "invalid": "định dạng tệp không hợp lệ ⟨ {0} ⟩",
+    "exist": "tên lệnh này ⟨ {0} ⟩ đã tồn tại, vui lòng thay đổi tên lệnh của bạn để khắc phục sự cố này"
+  },
+  "installed": {
+   "command": "lệnh {0} đã cài đặt",
+   "function": "đã cài đặt các hàm {0}"
+  },
+  "command": "lệnh bạn gõ không tồn tại trong hệ thống của tôi, ý bạn là\n {0}",
+  "ban":  {
+    "user": "tài khoản của bạn đã bị cấm trên hệ thống Alice",
+    "group": "cuộc trò chuyện nhóm của bạn đã bị cấm trên hệ thống Alice",
+    "nsfw": "trò chuyện nhóm của bạn không được phép sử dụng lệnh nsfw",
+    "groupAdmin": "xin lỗi nhưng chỉ quản trị viên nhóm mới có thể sử dụng lệnh này",
+     "admin": "xin lỗi nhưng chỉ quản trị viên bot mới có thể sử dụng lệnh này",
+     "premium": "xin lỗi nhưng chỉ người dùng cao cấp mới có thể sử dụng lệnh này"
+  },
+  "schedule": {
+    "morning": "mặt trời là lời nhắc nhở hàng ngày rằng chúng ta cũng có thể trỗi dậy từ bóng tối, rằng chúng ta cũng có thể tỏa sáng ánh sáng của riêng mình\n\n🌤️ chào buổi sáng mọi người",
+    "afternoon": "đừng thúc ép bản thân quá, hãy tạm quên mọi thứ và nghỉ ngơi một chút\n\n🌥️ chào buổi chiều mọi người",
+    "evening": "mặt trời lặn là dấu hiệu cho thấy dù một ngày của bạn có khó khăn đến đâu thì giờ cũng đã kết thúc, hãy ngồi xuống, thư giãn và tự hào rằng bạn đã sống sót thêm một ngày nữa\n\n🌆 chào buổi tối mọi người",
+    "sleep": "hãy để màn đêm đưa bạn đi, hãy để những vì sao bay vào giấc mơ của bạn, hãy để giấc ngủ là niềm an ủi duy nhất cho niềm tin của bạn\n\n🌌 chúc mọi người ngủ ngon",
+    "midnight": "Đừng suy nghĩ quá nhiều, mọi điều tồi tệ chỉ là tạm thời, hãy nghỉ ngơi và quên đi mọi chuyện một thời gian\n\n🌃 ngủ ngon nhé em yêu"
+    },
+  "cooldown": "lệnh đang trong thời gian hồi chiêu, bạn có thể sử dụng lệnh này sau\n⟨ {0} giây ⟩",
+  "missing": "đầu vào không được để trống\n\ncách sử dụng?\n{0} ⟨ đầu vào ⟩\n\nexample:\n{0} alice",
+  "help": "danh sách lệnh:\n\n{0}\n\n⟨ trang {1} ⟩",
+  "request": "đang xử lý yêu cầu của bạn\n⟨ {0} ⟩",
+  "error": "đã xảy ra lỗi khi gửi yêu cầu của bạn, vui lòng thử lại sau hoặc sửa mã của bạn ngay lập tức",
+  "size": "Xin lỗi, tệp yêu cầu của bạn không thể gửi được vì nó lớn hơn 25mb, vui lòng thử yêu cầu tệp ngắn nhất",
+  "search": "kết quả tìm kiếm cho\n⟨ {0} ⟩",
+  "reply": "vui lòng trả lời tin nhắn hợp lệ để xử lý yêu cầu của bạn",
+  "url": "vui lòng nhập url {0} hợp lệ",
+  "number": "vui lòng chọn và trả lời theo một số để xử lý yêu cầu của bạn",
+  "mention": "vui lòng đề cập đến một người dùng\n\nCách sử dụng?\n{0} ⟨ @tag ⟩\n\nVí dụ:\n{0} @alice",
+  "welcome": {
+    "description": "xin chào {0}, vui lòng sử dụng {1}trợ giúp để xem tôi có những lệnh nào",
+    "message": "chào mừng đến với nhóm {0}, bạn là thành viên thứ {1}của {2}\n\nhãy tận hưởng thời gian ở đây và kết bạn thật nhiều"
+  },
+  "level": "♡   ∩_∩\n.. （„• ֊ •„)♡\n┏━∪∪━━┓\n ♡𝗟𝗘𝗩𝗘𝗟 𝗨𝗣♡\n┗━━━━━┛\n\n❖ {0}, giấy phép của bạn hiện ở cấp độ {1}",
+  "goodbye": {
+    "description": "đây là kết thúc à {0}?",
+    "message": "tạm biệt nhóm {0}, tôi hy vọng bạn thích ở đây một thời gian\n\nhiện chỉ có {1} thành viên của nhóm này {2}"
+  }
+}
