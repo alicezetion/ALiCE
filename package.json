@@ -24,6 +24,7 @@
     "googlethis": "^1.8.0",
     "gradient-string": "^2.0.2",
     "jimp": "^0.22.10",
+    "mal-scraper": "^2.13.1",
     "node-cron": "^3.0.2",
     "path": "^0.12.7",
     "request-promise": "^4.2.6",
