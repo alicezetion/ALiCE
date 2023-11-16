@@ -31,7 +31,6 @@ const [leiamX, leiamY] = leiamA.map((item) => item.trim());
     command: this.alice.command,
     messageID: info.messageID,
     author: event.messageID,
-    type: "leiamnashB",
     leiamX,
     leiamY
    });
