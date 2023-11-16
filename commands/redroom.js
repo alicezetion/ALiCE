@@ -37,7 +37,7 @@ return bot.chat({
  }, event.messageID);
 } catch (error) {
  log.error(`[ ${this.alice.command} ] » ${error}`);
- return bot.chat(`[ ${this.alce.command} ] » ${language.error}`, event.threadID, event.messageID);
+ return bot.chat(`[ ${this.alice.command} ] » ${language.error}`, event.threadID, event.messageID);
  }
 }
 
