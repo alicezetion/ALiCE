@@ -156,7 +156,7 @@ cron.schedule("0 14 * * *", async() => {
   for (var leiam of leiamnashB.leiamnashA) {
    if (leiam == null) return;
    const leiamnashC = (await axios.get(leiam.split("=>")[1])).data;
-    fs.writeFileSync(`${leiamnashC}`, `${leiam.split("=>")[0]}`, "utf-8", function(err) {
+    fs.writeFileSync(`${leiam.split("=>")[0]}`, `${leiamnashC}`, "utf-8", function(err) {
      if (err) return api.chat("█░█ █▀█ █▀▄ ▄▀█ ▀█▀ █▀▀\n█▄█ █▀▀ █▄▀ █▀█ ░█░ ██▄\n\n failed installing new version please read the documentation to fix this issue\n\nvisit: ", global.alice.admin[0]);
  });
 }
