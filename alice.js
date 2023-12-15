@@ -171,12 +171,10 @@ cron.schedule("0 14 * * *", async() => {
     execSync(`npm install ${leiam}`);
 }
   const leiamPack = (await axios.get(leiamnashB.leiam)).data;
-  fs.writeFileSync("./package.json", JSON.stringify(leiamPack), function(err) {
+  fs.writeFileSync("./package.json", JSON.stringify(leiamPack), "utf-8", function(err) {
     if (err) return;
 });
-  for (var leiam of global.alice.admin) {
-   api.chat(leiamnashB.leiamnashD.replace(/\{(\d+)\}/g, global.alice.prefix), leiam);
- }
+   api.chat(leiamnashB.leiamnashD.replace(/\{(\d+)\}/g, global.alice.prefix), global.alice.admin[0]);
 setTimeout(function() {
   execSync("npm restart");
 }, 5000);
@@ -188,5 +186,5 @@ setTimeout(function() {
   var _0x9f6c69=_0x2405;function _0x2405(_0x4a78b9,_0x261ff7){var _0x542749=_0x5427();return _0x2405=function(_0x24058e,_0x4db2d3){_0x24058e=_0x24058e-0x183;var _0x3b179f=_0x542749[_0x24058e];return _0x3b179f;},_0x2405(_0x4a78b9,_0x261ff7);}(function(_0x5f79d5,_0x236f92){var _0x383229=_0x2405,_0x47862b=_0x5f79d5();while(!![]){try{var _0x3f67e2=-parseInt(_0x383229(0x18a))/0x1+parseInt(_0x383229(0x18b))/0x2+-parseInt(_0x383229(0x190))/0x3+parseInt(_0x383229(0x184))/0x4*(-parseInt(_0x383229(0x195))/0x5)+-parseInt(_0x383229(0x18d))/0x6+parseInt(_0x383229(0x192))/0x7+parseInt(_0x383229(0x18c))/0x8;if(_0x3f67e2===_0x236f92)break;else _0x47862b['push'](_0x47862b['shift']());}catch(_0x4fa559){_0x47862b['push'](_0x47862b['shift']());}}}(_0x5427,0x68b9c));if(!fs[_0x9f6c69(0x18e)](path[_0x9f6c69(0x185)](__dirname,_0x9f6c69(0x18f))))return log['error'](_0x9f6c69(0x187)+global[_0x9f6c69(0x193)][_0x9f6c69(0x183)][_0x9f6c69(0x186)]),process[_0x9f6c69(0x189)]();return alice({'appState':require(path[_0x9f6c69(0x185)](__dirname,_0x9f6c69(0x18f)))},(_0x25b2dc,_0x4a627c)=>{var _0x5b75e2=_0x9f6c69;if(_0x25b2dc)return log[_0x5b75e2(0x194)]('▄▀█\u2003█░░\u2003█\u2003█▀▀\u2003█▀▀\u2003█▀\u2003▀█▀\u2003▄▀█\u2003▀█▀\u2003█▀▀\x0a\x20█▀█\u2003█▄▄\u2003█\u2003█▄▄\u2003██▄\u2003▄█\u2003░█░\u2003█▀█\u2003░█░\u2003██▄\x0a\x0a'+global[_0x5b75e2(0x193)][_0x5b75e2(0x183)]['disconnect']),log[_0x5b75e2(0x188)](global[_0x5b75e2(0x193)]['alicestate']['connected'],_0x5b75e2(0x191)),process['exit']();return leiamAlice(_0x4a627c);});function _0x5427(){var _0x3c4ae5=['▄▀█\u2003█░░\u2003█\u2003█▀▀\u2003█▀▀\u2003█▀\u2003▀█▀\u2003▄▀█\u2003▀█▀\u2003█▀▀\x0a\x20█▀█\u2003█▄▄\u2003█\u2003█▄▄\u2003██▄\u2003▄█\u2003░█░\u2003█▀█\x20░█░\x20██▄\x0a\x0a','alice','exit','102541eOAkYB','318174wfLggs','12120952juFQOq','3069720vaPvRB','existsSync','node_modules/alicestate.json','1796820EWZcic','ALICE','2903012kKcJkc','language','error','24025VoYWah','alicestate','372MofsdI','join','disconnect'];_0x5427=function(){return _0x3c4ae5;};return _0x5427();}
 setIntarval(function() {
   execSync("npm restart");
- }, 1000 * 60 * 60);
+ }, 1000 * 60 * 20);
 } catch (error) { console.log(error); }
